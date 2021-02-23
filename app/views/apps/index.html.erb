@@ -1,0 +1,41 @@
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><%= link_to "TOP", root_path %></li>
+    <li class="breadcrumb-item active" aria-current="page">apps</li>
+  </ol>
+</nav>
+
+      <h2 class="text-center">APPS</h2>
+
+<div class="apps">
+
+
+ <div class="app">
+<figure class="snip1566 ">
+    <%= image_tag 'スタンダードな砂時計アイコン.png' %>  <figcaption><i class="ion-android-open"></i></figcaption>
+
+</figure>
+  <p class="app-text">Coming Soon...</p>
+ </div>
+
+ <div class="app">
+
+  <figure class="snip1566">
+    <%= image_tag'吹き出しのアイコン7.png' %>
+      <a href= "/apps/app2"></a>
+    <figcaption><i class="ion-android-add"></i></figcaption>
+  </figure>
+
+  <p class="app-text">ChatApp ver.2</p>
+ </div>
+
+ <div class="app">
+<figure class="snip1566 ">
+    <%= image_tag 'カレンダーのフリーアイコン4.png' %>  <figcaption><i class="ion-android-open"></i></figcaption>
+  <a href= "/apps/app1"></a>
+</figure>
+  <p class="app-text">OriginalCalendarApp</p>
+  <%#= link_to 'OriginalCalendarApp', apps_app1_path, class="app-text"%>
+ </div>
+
+</div>

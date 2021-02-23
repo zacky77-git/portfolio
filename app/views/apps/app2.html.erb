@@ -1,0 +1,98 @@
+<div>
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><%= link_to "TOP", root_path %></li>
+      <li class="breadcrumb-item"><%= link_to "APPS", apps_path %></li>
+      <li class="breadcrumb-item active" aria-current="page">ChatApp ver.2</li>
+    </ol>
+  </nav>
+</div>
+<div class="text-center">
+  <div>
+   <h2 >ChatApp ver.2</h2>
+    <b>
+    このアプリ開発をするために何を学び、何を習得したのか
+    </b>
+    <p>
+    GoogleCloudAPIの活用方法
+    </p>
+    <b>
+    アプリケーション概要
+    </b>
+    <p>
+    ・ログイン　　　　　　　　　<br>
+    ・チャットルーム作成　　　　<br>
+    ・メッセージの投稿(写真含む)<br>
+    ・外国語の翻訳　　　　　　　
+    </p>
+  </div>
+  <div>
+    <b>
+      利用方法
+    </b>
+    <p>
+      まずサインインをした後、ユーザー名横のハンバーガーメニューからグループ作成を行ってください。<br>
+      ルーム名とメンバーを選択し、作成を押していただければ準備完了です。　　　　　　　　　　　　　<br>
+      ご自由にメッセージを送ってください。　　　　　　　　　　　　　　　　　　　　　　　　　　　　<br>
+      日本語以外でメーッセージを送信した場合はメッセージ下に訳が表示されます。　　　　　　　　　　<br>
+    </p>
+  </div>
+  <div>
+    <b>
+      目指した課題解決
+    </b>
+    <p>
+      多言語の言葉を話す人とメッセージのやり取りをする時に、送られてきたメッセージをコピーして<br>
+      翻訳アプリなどにかける人に対して、その場で完結するアプリを目指しました。　　　　　　　　
+    </p>
+  </div>
+  <div>
+    <b>
+    洗い出した要件
+    </b>
+    <p>
+      ・翻訳機能　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　<br>
+      ・チャット画面のcss変更(プロフィール写真の表示、メッセージを左右に分ける、吹き出し形状にする)<br>
+      ・ページ遷移のURL集約　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　<br>
+      ＊改良前の状態　チャットルーム作成とメッセージの送信ができる　　　　　　　　　　　　　　　　　<br>
+    </p>
+  </div>
+  <div>
+    <b>
+      実装した機能についてのGIFと説明<br>
+    </b>
+    <br>
+    <p>
+      <チャット機能>＊ユーザー名ゆずれもんでログインした状態です。<br>
+      サイドバーに所属しているルーム一覧が表示されるので、ローム名をクリックすることでチャット画面が表示されます。
+    </p>
+      <img src= "https://user-images.githubusercontent.com/74704546/107139018-745b1a00-695b-11eb-9e23-c938fc84ade3.gif", class="img-fluid thumbnail", alt: "image"%>
+    <p>
+      <メニュー><br>
+      ハンバーガーメニューからそれぞれのリンクに飛べます.
+    </p>
+      <img src= "https://user-images.githubusercontent.com/74704546/107139177-9903c180-695c-11eb-8fa1-14b8b3795eae.gif", class="img-fluid thumbnail",  alt: "image"%>
+    <p>
+      <翻訳機能><br>
+      送信されたメッセージの言語を識別し、日本語に変換します。
+    </p>
+      <img src= "https://user-images.githubusercontent.com/74704546/107139362-ec2a4400-695d-11eb-92ec-5de3dd5d7f70.gif",  class="img-fluid thumbnail", alt: "image"%>
+    <br><b>
+      実装予定の機能	
+    </b>
+    <p>
+      フレンド機能とDM機能：　現状、チャットルームを作成し、ルーム名とメンバーを選択しているが　　　　　　　　<br>
+      　　　　　　　　　　　フレンド登録している人の一覧を作り、そこからルーム名などの設定画面への遷移をなくし<br>
+      　　　　　　　　　　　1対1のチャットルームを作成できるようにする　　　　　　　　　　　　　　　　　　　　<br>
+      タイムライン機能：　チャットとは別に、投稿できる機能を作り、それに対しコメントができるようにする　　　　
+    </p>
+    <b>データベース設計	<br></b>
+      <img src= "https://user-images.githubusercontent.com/74704546/105680175-b84d2880-5f32-11eb-8f1d-ebbf525e6d2e.png", class="img-fluid ",  alt: "image"%>
+
+
+
+  </div>
+  <b>GitHubはこちらから<br>→</b>
+    <a href="https://github.com/zacky77-git/chat-app-v2" target="_blank">GitHab</a><br><br>
+</div>
+

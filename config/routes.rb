@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: 'apps#top'
+  resources :apps, only: :index
+  get 'apps/top'
+  get 'apps/app1'
+  get 'apps/app2'
+  get 'apps/profile'
 end
